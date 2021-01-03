@@ -1,3 +1,6 @@
+import networkx as nx
+import networkx.algorithms.community as nxalgo
+
 def Clique_Percolation(G, most_valualble_edge=None):
         cliques_list = []
         for k in range(3, G.number_of_nodes()):
